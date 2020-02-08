@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 
 import "./layout.css"
 import Menu from "./Menu"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => {
 
@@ -24,9 +25,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <Footer/>
         </footer>
       </div>
     </>
