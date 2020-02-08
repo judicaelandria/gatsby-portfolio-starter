@@ -5,10 +5,10 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Gatsby's portfolio starter
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Kick off your project with this portfolio boilerplate.
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
@@ -20,7 +20,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```shell
     # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    gatsby new my-default-starter https://github.com/Judionit/gatsby-portfolio-starter
     ```
 
 1.  **Start developing.**
@@ -48,15 +48,16 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── node_modules
     ├── src
     ├── .gitignore
+    ├── .prettierignore
     ├── .prettierrc
+    ├── .LICENSE
+    ├── .README.md
     ├── gatsby-browser.js
     ├── gatsby-config.js
     ├── gatsby-node.js
     ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
     ├── package.json
-    └── README.md
+    └── yarn.lock
 
 1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
