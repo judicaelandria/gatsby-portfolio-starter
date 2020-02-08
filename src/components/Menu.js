@@ -9,6 +9,7 @@ import {
   NavLink,
 } from "./Navigation/Navigation"
 import { useStaticQuery, graphql } from "gatsby"
+import ScrollIntoView from "react-scroll-into-view"
 
 const Menu = () => {
   const data = useStaticQuery(graphql`
@@ -26,15 +27,16 @@ const Menu = () => {
         <NavBrand>{data.site.siteMetadata.author}</NavBrand>
         <Nav>
           <NavItem>
-            <Item>
-              <NavLink>About</NavLink>
-            </Item>
-            <Item>
-              <NavLink>Project</NavLink>
-            </Item>
-            <Item>
-              <NavLink>Contact</NavLink>
-            </Item>
+            <ScrollIntoView selector="#about">
+              <Item>
+                <NavLink>About</NavLink>
+              </Item>
+            </ScrollIntoView>
+            <ScrollIntoView selector="#project">
+              <Item>
+                <NavLink>Project</NavLink>
+              </Item>
+            </ScrollIntoView>
           </NavItem>
         </Nav>
       </NavWrapper>

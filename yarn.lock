@@ -9848,6 +9848,11 @@ react-reconciler@^0.24.0:
     prop-types "^15.6.2"
     scheduler "^0.18.0"
 
+react-scroll-into-view@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/react-scroll-into-view/-/react-scroll-into-view-1.7.0.tgz#68876db7fd77eea99ab6aa417a2d185d31d42649"
+  integrity sha512-vF6kFvaYQv60TZ16rBR9LWerbwIApuERIF9xNQAiOhKzZvxGuP7c+hQbLAHq0QDEnnJaGM6pd6l2ECQOzssp0Q==
+
 react-side-effect@^1.1.0:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-1.1.5.tgz#f26059e50ed9c626d91d661b9f3c8bb38cd0ff2d"

@@ -10,8 +10,12 @@ const IndexPage = () => (
   <Layout>
     <Header/>
     <Container>
+      <div id="about">
       <About/>
+      </div>
+      <div id="project">
       <Project/>
+      </div>
     </Container>
   </Layout>
 )
